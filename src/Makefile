@@ -1,4 +1,4 @@
-TAG = sigan/latex:latest
+TAG = dyakovri/latex:latest
 
 build:
 	docker build --tag $(TAG) --rm .

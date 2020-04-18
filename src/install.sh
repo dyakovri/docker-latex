@@ -35,3 +35,7 @@ mktexlsr
 
 echo "###> Running updmap"
 updmap-sys
+
+tlmgr init-usertree
+tlmgr option repository ftp://tug.org/historic/systems/texlive/2017/tlnet-final
+tlmgr install markdown
